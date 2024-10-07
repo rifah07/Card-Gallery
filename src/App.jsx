@@ -4,7 +4,10 @@ import "./App.css";
 function App() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-wrap justify-center items-center p-4">
-     
+      <h1 className="text-center text-2xl font-bold mt-4 mb-8 lg:text-4xl">
+        {" "}
+        Welcome to Rifah's Exhibition
+      </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="transition duration-300 ease-in-out hover:scale-110 cursor-none">
           <Card
