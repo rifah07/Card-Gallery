@@ -23,21 +23,21 @@ function App() {
             description="A serene walk through a lush forest."
           />
         </div>
-        <div className="transition duration-300 ease-in-out hover:scale-110 cursor-none">
+        <div className="transition duration-300 ease-in-out hover:scale-110 cursor-zoom-in">
           <Card
             title="City Lights"
             image="https://images.theconversation.com/files/149162/original/image-20161208-18046-116xg09.jpg?ixlib=rb-4.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip"
             description="The city comes alive with lights at night."
           />
         </div>
-        <div className="transition duration-300 ease-in-out hover:scale-110 cursor-zoom-out">
+        <div className="transition duration-300 ease-in-out hover:scale-110 cursor-zoom-in">
           <Card
             title="Flowing Fountain"
             image="https://tse4.mm.bing.net/th?id=OIP.ZHEaEn6yqgb76ySxdb3S6gHaE-&pid=Api&P=0&h=220"
             description="A eye-soothing view over the fountain."
           />
         </div>{" "}
-        <div className="transition duration-300 ease-in-out hover:scale-110 cursor-none">
+        <div className="transition duration-300 ease-in-out hover:scale-110 cursor-zoom-in">
           <Card
             title="Amazing Autumn"
             image="https://tse3.mm.bing.net/th?id=OIP.MCLzVoExgXPyNi_V5gb1AwHaE7&pid=Api&P=0&h=220"
@@ -65,7 +65,7 @@ function App() {
             description="A beautiful day in Spring"
           />
         </div>{" "}
-        <div className="transition duration-300 ease-in-out hover:scale-110 cursor-none">
+        <div className="transition duration-300 ease-in-out hover:scale-110 cursor-zoom-in">
           <Card
             title="Starry Night"
             image="https://tse3.mm.bing.net/th?id=OIP.T047RCxsRWjcT11wYpPQzwHaEo&pid=Api&P=0&h=220"
@@ -79,14 +79,14 @@ function App() {
             description="A soothing view of the tree leaves."
           />
         </div>{" "}
-        <div className="transition duration-300 ease-in-out hover:scale-110 cursor-none">
+        <div className="transition duration-300 ease-in-out hover:scale-110 cursor-zoom-in">
           <Card
             title="The Rainy Weather"
             image="https://wallpapercave.com/wp/wc1729391.jpg"
             description="A beautiful day in rain"
           />
         </div>{" "}
-        <div className="transition duration-300 ease-in-out hover:scale-110 cursor-none">
+        <div className="transition duration-300 ease-in-out hover:scale-110">
           <Card
             title="The Red Umbrella"
             image="https://tse4.mm.bing.net/th?id=OIP.JW7tFR7fKqNuIbu3ArckaAHaEK&pid=Api&P=0&h=220"
